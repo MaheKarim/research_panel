@@ -5,9 +5,9 @@
             <div class="col-12">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active"><a href="{{ route('search.doctor') }}"><img class="d-block w-100" src="{{asset('/')}}frontend/assets/img/banner1.jpg" alt="First slide"></a>  </div>
-                        <div class="carousel-item"><a href="https://amardoctor.com.bd/public/index.php/contact/service/nursing"> <img class="d-block w-100" src="{{asset('/')}}frontend/assets/img/banner2.jpg" alt="Second slide"></a> </div>
-                        <div class="carousel-item"><a href="{{ route('search.doctor') }}"> <img class="d-block w-100" src="{{asset('/')}}frontend/assets/img/banner3.jpg" alt="Third slide"> </a></div>
+                        <div class="carousel-item active"><a href="{{ route('search.doctor') }}"><img class="d-block w-100" src="{{asset('/')}}frontend/assets/img/banner1.png" alt="First slide"></a>  </div>
+                        <div class="carousel-item"><a href="#"> <img class="d-block w-100" src="{{asset('/')}}frontend/assets/img/banner2.png" alt="Second slide"></a> </div>
+                        <div class="carousel-item"><a href="{{ route('search.doctor') }}"> <img class="d-block w-100" src="{{asset('/')}}frontend/assets/img/banner3.png" alt="Third slide"> </a></div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
                     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
@@ -135,7 +135,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <h2 class="u-font--24 u-margin--0 u-font--bold ">3 steps for better Booking</h2> </div>
+                <h2 class="u-font--24 u-margin--0 u-font--bold ">3 steps for better {{ config('app.name') }}</h2> </div>
         </div>
         <div class="row">
             <div class="col-md-4 col-xs-12">
@@ -150,7 +150,7 @@
                 <span>Ideal For Not Time Waste</span> </div>
 
             <div class="col-md-4 col-xs-12">
-                <a href="#"> <img class="img-fluid" src="{{asset('/')}}frontend/assets/img/medicine.jpg"> </a>
+                <a href="#"> <img class="img-fluid" src="{{asset('/')}}frontend/assets/img/doctor.jpg"> </a>
                 <br>
                 <br>
                 <span>Good Timing . Relax</span> </div>

@@ -1,7 +1,5 @@
  			<!-- Footer -->
              <footer class="footer">
-
-
 				<!-- Footer Top -->
 				<div class="footer-top">
 					<div class="container-fluid">
@@ -11,7 +9,7 @@
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-about">
 									<div class="footer-logo">
-										<img src="{{ asset('/') }}frontend/assets/img/footer-logo.png" alt="logo">
+										<img src="{{ asset('/') }}frontend/assets/img/seu.png" alt="logo">
 									</div>
 									<div class="footer-about-content">
 										<p>{{ $settings->site_shortDescription }}</p>
@@ -104,7 +102,7 @@
 							<div class="row">
 								<div class="col-md-6 col-lg-6">
 									<div class="copyright-text">
-										<p class="mb-0">&copy; {{ now()->year }} Research Project Management System .  Developed By
+										<p class="mb-0">&copy; {{ now()->year }} {{ config('app.name') }} .  Developed By
 											<a href="#"> Batch - 39 CSE </a>
 										</p>
 									</div>
